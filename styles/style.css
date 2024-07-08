@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+    margin: 0;
+}
+
+/* font-family: "Kdam Thmor Pro", sans-serif;
+  font-weight: 400; */
+header {
+    background-color: #FCEEF1;
+}
+
+.banner-section {
+    max-width: 1440px;
+    height: 540px;
+    /* border: 2px solid red; */
+}
+
+.btn{
+    display: flex;
+    justify-content: left;
+}
+
+.banner-content-section {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.banner-content {
+    width: 50%;
+    height: 540px;
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-content h1 {
+    font-family: "Kdam Thmor Pro", sans-serif;
+    font-weight: 400;
+}
+
+.banner-image {
+    width: 50%;
+    height: 540px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-image img {
+    width: 50%;
+    height: 540px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.featured-section {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 100px;
+    /* border: 2px solid red; */
+}
+
+.featured-content {
+    text-align: center;
+}
+
+.featured-image {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    /* border: 2px solid red; */
+    margin-top: 40px;
+
+}
+
+.first-image,
+.second-image,
+.third-image {
+    /* border: 2px solid red; */
+    width: 30%;
+    height: 430;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50% 50% 0 0;
+}
+
+.first-image {
+    background-color: #F1DDE7;
+}
+
+.second-image {
+    background-color: #DAF0F1;
+}
+
+.third-image {
+    background-color: #E4ECDC;
+}
+
+.group-section {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 100px;
+    border: 2px solid red;
+    padding: 20px;
+    background-color: #F4F4F4;
+}
+
+
+.group-image{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.hot-sale{
+    /* border: 2px solid red; */
+    max-width: 1440px;
+    height: 440px;
+    margin-top: 100px;
+    background-color: #FEF6F8;
+}
+
+.hot-sale-container{
+    display: flex;
+    margin: 0 auto;
+    width: 90%;
+    gap: 10px;
+
+}
+
+
+
+.hot-sale-content{
+    /* border: 2px solid blue; */
+    width: 50%;
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.p{
+    text-align: center;
+    margin: 20px 0 ;
+}
+
+.hot-sale-image{
+    /* border: 2px solid green; */
+    width: 50%;
+    height: 440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hot-sale-image img{
+    width: 360px;
+    height: 340px;
+}
+
+.instagram{
+    width: 90%;
+    margin: 0 auto;
+    border: 2px solid blue;
+}
